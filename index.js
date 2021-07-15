@@ -17,6 +17,8 @@ The function should:
 
 function createMenuItem(/*Your code here*/){
     /*Your code here*/
+
+    /*temporary text entry for 1st commit to setup codegrade*/
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
