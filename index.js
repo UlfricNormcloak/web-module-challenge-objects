@@ -55,7 +55,7 @@ const burger = {
   price: 18, 
   category: "Lunch", 
   discount: function(string){
-      if (string === 'teacher' || string === 'student'){
+      if (string === "teacher" || string === "student"){
         return this.price * .75
       } else {
         return this.price * .90
@@ -63,9 +63,9 @@ const burger = {
   }
 }
 
-console.log(burger.discount('teacher'));
-console.log(burger.discount('student'));
-console.log(burger.discount('public'));
+console.log(burger.discount("teacher"));
+console.log(burger.discount("student"));
+console.log(burger.discount("public"));
 
 ///////////////Reviews (MVP)///////////////////
 const reviews = [
@@ -129,12 +129,11 @@ Use the getReviewByIndex function below to do the following:
 */
 
 //2 parameters = array, number
-function getReviewByIndex(/*Your code here*/) {
-  /*Your code here*/
-  //return the array[number].feedback
+function getReviewByIndex(array, index) {
+  return `${array[index].name} gave the restaurant a ${array[index].rating} star review, and their feedback was: ${array[index].feedback}`;
 }
 
-
+console.log(reviews, 3);
   
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
