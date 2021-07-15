@@ -95,14 +95,12 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
 /*reviews[7].feedback = 'this place is chill with really cool people, great for getting work done on weekdays';
 console.log(reviews);*/
 
-function updateFeedback(array, index, key, update){
-  array [index] [key] = update;
+/*function updateFeedback(array, index, key, update){
+  array[index][key]= update;
   return array;
-}
+}*/
 
-console.log(updateFeedback(reviews, 7, 'feedback:', 'this place is chill with really cool people, great for getting work done on weekdays'));
-
-
+console.log(reviews[7].feedback = 'this place is chill with really cool people, great for getting work done on weekdays');
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Write a function that creates an object with name, rating, feedback, add the new review to the end of an array and returns the resulting array
@@ -170,8 +168,9 @@ Use the getReviewsByRating function below to do the following:
   ]
 */
 
- function getReviewByRating(/* code here */) {
-    /* code here */
+ function getReviewByRating(array, rating) {
+    const newArray = [];
+
   }
 
   
